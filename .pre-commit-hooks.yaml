@@ -5,4 +5,5 @@
   description: Run PEST SAST for Erlang (via Docker build)
   language: docker
   files: "[.]erl$"
-  args: ["/pest/pest.erl", "-ev"]
+  entry: "/pest/pest.erl"
+  args: ["-ev"]
