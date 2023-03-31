@@ -1,0 +1,8 @@
+---
+# SAST: Erlang Pest https://github.com/okeuday/pest
+- id: pest
+  name: SAST:pest
+  description: Run PEST SAST for Erlang (via Docker build)
+  language: docker
+  files: "[.]erl$"
+  args: ["/pest/pest.erl", "-ev"]
