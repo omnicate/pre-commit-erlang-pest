@@ -1,7 +1,7 @@
 ---
 # SAST: Erlang Pest https://github.com/okeuday/pest
 - id: pest
-  name: SAST:pest
+  name: SAST:pest - Erlang Security Testing (via Docker build)
   description: Run PEST SAST for Erlang (via Docker build)
   language: docker
   files: "[.]erl$"
