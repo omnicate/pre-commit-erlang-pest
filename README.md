@@ -1,5 +1,7 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
 # pre-commit-erlang-pest
-A pre-commit hook that integrates PEST for SAST
+A pre-commit hook that integrates [PEST](https://github.com/okeuday/pest) SAST scans on Erlang code.
 
 ## Configuration
 Add the following config to your `.pre-commit-config.yaml`
