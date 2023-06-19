@@ -7,7 +7,7 @@ A pre-commit hook that integrates [PEST](https://github.com/okeuday/pest) SAST s
 Add the following config to your `.pre-commit-config.yaml`
 ```
   - repo: https://github.com/jonny-wg2/pre-commit-erlang-pest 
-    rev: v1.0.2
+    rev: v1.0.3
     hooks:
       - id: pest
 ```
