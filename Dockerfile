@@ -1,4 +1,4 @@
-FROM erlang:24-alpine
+FROM erlang:26-alpine
 
 # Install git and create nonroot user
 RUN apk update && apk add --no-cache git; \
