@@ -6,8 +6,8 @@ A pre-commit hook that integrates [PEST](https://github.com/okeuday/pest) SAST s
 ## Configuration
 Add the following config to your `.pre-commit-config.yaml`
 ```
-  - repo: https://github.com/jonny-wg2/pre-commit-erlang-pest 
-    rev: v1.0.3
+  - repo: https://github.com/omnicate/pre-commit-erlang-pest 
+    rev: v1.0.4
     hooks:
       - id: pest
 ```
@@ -18,8 +18,8 @@ And test your repo
 Example output:
 ```
 ❯❯❯ pre-commit run pest --all-files -v
-[INFO] Initializing environment for https://github.com/jonny-wg2/pre-commit-erlang-pest.
-[INFO] Installing environment for https://github.com/jonny-wg2/pre-commit-erlang-pest.
+[INFO] Initializing environment for https://github.com/omnicate/pre-commit-erlang-pest.
+[INFO] Installing environment for https://github.com/omnicate/pre-commit-erlang-pest.
 [INFO] Once installed this environment will be reused.
 [INFO] This may take a few minutes...
 SAST:pest - Erlang Security Testing (via Docker build).......................Failed
