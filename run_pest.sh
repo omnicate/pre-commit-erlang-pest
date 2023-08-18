@@ -9,7 +9,7 @@ then
 else
     if [[ -f "$ESCRIPT" ]]
     then
-        echo "INFO: For quicker workflow, git clone https://github.com/okeuday/pest and add pest.erl to $PATH"
+        echo "INFO: For quicker workflow, git clone https://github.com/okeuday/pest and add pest.erl to \$PATH"
     fi
 
     DIR=`dirname "${BASH_SOURCE[0]}"`
